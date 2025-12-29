@@ -43,7 +43,7 @@ const App: Component = (props: { children: Element }) => {
           class="text-5xl mx-auto mb-8 font-light"
           style={{ "font-family": "Georgia, 'Times New Roman', serif" }}
         >
-          Back of House Engineering
+          back of house engineering
         </h1>
 
         <Suspense>{props.children}</Suspense>
