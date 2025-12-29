@@ -10,7 +10,7 @@ export default function Home() {
       style={{ "font-family": "Georgia, 'Times New Roman', serif" }}
     >
       <h2 class="text-2xl font-normal">
-        Coming soon
+        coming soon
       </h2>
 
       <p class="mt-4"></p>
