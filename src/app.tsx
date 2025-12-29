@@ -6,7 +6,7 @@ const App: Component = (props: { children: Element }) => {
 
   return (
     <div class="bg-white text-black min-h-screen">
-      {/* 
+      {/*
       <nav class="bg-slate-100 text-slate-900 px-4">
         <ul class="flex items-center">
           <li class="py-2 px-4">
@@ -38,4 +38,21 @@ const App: Component = (props: { children: Element }) => {
       </nav>
       */}
 
-      <main class="max-w-2xl mx-auto
+      <main class="max-w-2xl mx-auto h-screen flex flex-col justify-center px-4">
+        <h1
+          class="text-5xl mx-auto mb-8 font-semibold tracking-tight lowercase"
+          style={{
+            "font-family":
+              "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif",
+          }}
+        >
+          back of house engineering
+        </h1>
+
+        <Suspense>{props.children}</Suspense>
+      </main>
+    </div>
+  );
+};
+
+export default App;
